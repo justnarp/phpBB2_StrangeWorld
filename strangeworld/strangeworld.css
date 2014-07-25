@@ -1,0 +1,414 @@
+/*
+  The original StrangeWorld Theme for phpBB version 2+
+  Created by Mike Lothar
+  http://www.mikelothar.com
+*/
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #E6E6E6;
+	margin: 0px;
+	text-align: center;
+}
+
+form, .radio {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.gotopage img {
+	display: none;
+}
+
+html>body .radio {
+	margin-top: 3px;
+}
+
+.block {
+	display: block;
+}
+
+#leftblock {
+	background-image: url(images/leftblock-bg.jpg);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+
+#rightblock {
+	background-image: url(images/rightblock-bg.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+
+#centering {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+}
+
+#centerblock {
+	width: 484px;
+	text-align: left;
+	vertical-align: top;
+	padding: 0;
+	background: white;
+}
+
+#top-image img {
+	border: 0;
+}
+
+#menu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #000000;
+	padding-top: 9px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 27px;
+}
+
+#menu a {
+	color: white;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+#forum {
+	padding: 2px 27px 50px;
+}
+
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 15px;
+	font-weight: bold;
+	color: #355F00;
+	color: #C80000;
+	color: black;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	position: relative;
+	left: -27px;
+}
+
+.h1_back img {
+	border: 0;
+}
+
+h1 a {
+	color: black;
+	text-decoration: none;
+}
+
+h1 a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	font-weight: bold;
+	color: black;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+h2 a {
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+h2 a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+
+p a {
+	color: black;
+	text-decoration: underline;
+}
+
+p a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.code {
+	margin: 5px 10px;
+	font-family: "Courier New", Courier, mono;
+	font-size: 11px;
+	line-height: 13px;
+	color: #0000CC;
+}
+
+.quote {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #555;
+	font-size: 10px;
+	line-height: 13px;
+	margin: 5px 10px;
+}
+
+.quote a {
+	color: #555;
+	text-decoration: underline;
+}
+
+.quote a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+#copyright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+	line-height: normal;
+	font-weight: bold;
+	color: white;
+	background-color: #000000;
+	text-align: right;
+	padding-top: 9px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	height: 34px;
+}
+
+#copyright a {
+	color: white;
+	text-decoration: none;
+}
+
+#copyright a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.show_content {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 15px;
+	color: #222;
+	background: #f5f5f5;
+}
+
+.show_content a {
+	font-weight: bold;
+	color: #3c3c3c;
+	text-decoration: none;
+}
+
+.show_content a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.show_content #line1 {
+	padding: 5px 27px;
+	background: #ddd;
+	margin: 1px 0;
+}
+
+.show_content #line2 {
+	padding: 5px 27px;
+	background: #ddd;
+	margin: 0 0 1px;
+}
+
+.show_content #line3 {
+	padding: 5px 27px;
+	background: #e8e8e8;
+	margin: 0 0 1px;
+}
+
+.show_content #line3 a {
+	font-weight: bold;
+	color: #4c4c4c;
+	text-decoration: none;
+}
+
+.show_content #line3 a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.show_content .line_show {
+	background: #ddd;
+	color: black;
+	margin: 7px 0;
+}
+
+.show_content .line_show a {
+	text-decoration: underline;
+	color: black;
+}
+
+.show_content .line_show a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.show_userdetails {
+	background: white;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 15px;
+	color: #222;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: #f5f5f5;
+}
+
+.show_userdetails a {
+	color: #222;
+	text-decoration: underline;
+}
+
+.show_userdetails a:hover {
+	color: #222;
+	text-decoration: none;
+}
+
+.table_details {
+	width: 430px;
+}
+
+.table_details td {
+	padding: 10px;
+	vertical-align: top;
+}
+
+.table_details td.icons, .icons {
+	padding: 5px 10px 2px;
+	background: #e8e8e8;
+	border-top: 1px solid white;
+}
+
+.table_details td.icons img, .icons img {
+	margin-right: 3px;
+}
+
+.memberlist_icons img {
+	margin-right: 3px;
+}
+
+.avatar {
+	float: right;
+}
+
+.avatar img, .avatar_profile img {
+	background: white;
+	border: 3px solid white;
+	margin-bottom: 3px;
+}
+
+.edited {
+	font-size: 10px;
+}
+
+select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	margin: 3px 0;
+}
+
+.helpline {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	border: 0;
+	background: none;
+}
+
+input.post, textarea.post {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	border: 1px solid #ddd;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	height: 25px;
+	padding: 5px 0.5em;
+	width: 430px;
+}
+
+textarea.post {
+	height: 200px;
+}
+
+input.postshorter, textarea.postshorter {
+	width: 410px;
+}
+
+input.postshort {
+	width: 150px;
+}
+
+input.button {
+	background: white url('images/buttonsbg.gif') repeat-x;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #222;
+	border: 0;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 5px 0.5em;
+}
+
+* html input.button {
+	/*\*//*/
+	padding: 4px 0.5em;
+	/**/	
+	/*\*/padding: 5px 0.5em;/* */
+	width/**/: 0;
+	overflow/**/: visible;
+}
+	
+input.button {
+	cursor: pointer !important;
+	cursor: hand;
+}
+
+input.button:hover, input.button:focus {
+	border: 0;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
